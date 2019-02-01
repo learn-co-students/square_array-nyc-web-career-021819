@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  sqrd_array = []
+  array.each {|num| sqrd_array << (num**2)}
+  return sqrd_array
 end
